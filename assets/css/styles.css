@@ -1,0 +1,84 @@
+body {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#ads {
+  text-align:center;
+  padding:46px;
+  background:url(../../assets/img/banner0.jpg);
+  background-size:cover;
+  margin-top:6rem;
+}
+
+@media (max-width:991px) {
+  #ads {
+    padding:20px;
+  }
+}
+
+#ads .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255, 0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+#ads .jumbotron {
+  padding:20px;
+}
+
+.site-section {
+  text-align:center;
+  padding:40px 0 60px;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:10px;
+}
+
+#works p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+#works i {
+  font-size:24px;
+  margin-left:2rem;
+}
+
+#works h2 {
+  font-weight:normal;
+}
+
+#works .item {
+  margin-top:4rem;
+  margin-bottom:3rem;
+}
+
+.artwork-section {
+  background-color:rgba(240,253,255,0.85);
+}
+
+.ads-pic img {
+  margin-top:2rem;
+}
+
+#content {
+  margin-right:3rem;
+}
+
+@media (max-width:767px) {
+  #works h1 {
+    font-size:26px;
+  }
+}
+
+@media (max-width:767px) {
+  .ads-pic h3 {
+    font-size:20px;
+  }
+}
+
